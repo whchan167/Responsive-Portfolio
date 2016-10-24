@@ -1,0 +1,223 @@
+body {background-color: #ffffff;
+      font-family: 'Georgia, Times New Roman, Times, serif';
+      }
+
+h1 {font-family: 'Georgia, Times, Times New Roman, serif';}
+
+img {width:300px;
+	 height:300px;
+	 position:relative;
+	 float:left;
+	 margin:20px;}
+
+header {width:1256px; 
+		height:80px;
+		background-color:#ffffff;
+		margin-top:0;
+		overflow:hidden;
+		border:solid #cccccc;}
+		
+.name-box {padding-top:40px;
+		font-size:25px;
+		text-align:center;
+		width:150px; 
+	    height:60px;
+	    background-color:#4aaaa5;
+		margin-left:180px;
+		float:left;
+		color:white;
+		}
+
+.nav-box {margin-top:20px;
+		  margin-right:80px;
+		  font-size:20px; 
+		  width:300px;
+		  height:40px;
+		  float:right;
+		  background-color:#ffffff;}
+
+.nav-smallbox {display:inline-block;
+			 margin-right:25px;
+			 color:black;}
+
+
+ .main {background-color: #C0C0C0;
+ 		clear:both;
+ 		width:1256px;
+ 		height:620px;
+ 	    border: solid #dddddd;
+ 	    position:relative;
+ 		}
+
+ .aboutme   {width:40%;
+ 			height:70%;
+ 			float:left;
+ 			padding:40px;
+ 			margin:50px 120px 50px 120px;
+ 			border:solid #dddddd;
+ 			font-size:20px;
+ 			background-color: #ffffff;
+ 			overflow:hidden;
+ 			line-height:1.2;}
+
+ .aside {width:215px;
+ 		height:145px;
+ 		position: absolute;
+ 		background-color: #ffffff;
+ 		top:50px;
+ 		right:100px;
+ 	    font-size:25px;
+ 	    padding:40px;
+ 		border:solid #dddddd;}
+ 
+ #icon {width:60px;
+ 	   height:70px;
+ 	   display:inline-block;}
+
+ footer {background-color: #666666;
+	font-style: 'Arial';
+	font-size:30px;
+	text-align: center;
+	padding-top: 40px;
+	color: white;
+	clear: both;
+	overflow:auto;
+	width: 1256px;
+	height: 50px;
+	position: relative;
+	border-top:solid #4aaaa5;}
+
+#business, #nature, #sports, #technic {display:inline-block;
+										width:200px;
+										height:150px;
+										margin: 15px;} 
+
+.portfolio  {width:40%;
+ 			height:70%;
+ 			float:left;
+ 			padding:30px;
+ 			margin-top:50px;
+ 			margin-left:100px;
+ 			border:solid #dddddd;
+ 			font-size:30px;
+ 			background-color: #ffffff;
+ 			}
+.contact  {width:40%;
+ 			height:70%;
+ 			float:left;
+ 			padding:30px;
+ 			margin-top:50px;
+ 			margin-left:150px;
+ 			border:solid #dddddd;
+ 			font-size:20px;
+ 			background-color: #ffffff;
+ 			}
+
+/*media query*/
+@media screen and (max-width: 980px) {
+		body {width:100%;}
+		header {width:100%;}
+		.name-box {margin-left:120px;}
+		.main {width:100%;
+				height:100%;}
+		img {width:100%;}
+		.aside {width:30%;
+				padding:15px;
+				margin-right:-50px;}
+		.nav-box {margin-right:30px;}
+		.aboutme {margin-left:100px;
+				  padding:10px;
+				  width:35%;
+				  margin-bottom:50px;
+				  overflow:auto;}
+		footer {width:100%;}
+		#business, #nature, #sports, #technic {
+				 width:100%;
+				 margin:0px;
+				 padding:10px 10px 10px 0px;}
+		.portfolio {width:35%; 
+				    margin:50px;}
+		.contact {width:30%; height:80%;
+				 margin-left:80px;
+				 margin-bottom:50px;}
+		form, input {width:100%;}
+		}
+
+@media screen and (max-width:768px) {
+			body {width:100%;}
+			header {width:100%;}
+			img {width:250px;
+	 			height:250px;
+	 			position:relative;
+	 			float:left;
+	 			margin:20px;}
+			.name-box {margin-left:60px;}
+			.main {width:100%;
+				  }
+			.aside {width:80%;
+					float:none;
+					position:relative;
+				    overflow:auto;
+					margin:0px 50px 80px 160px;}
+			.nav-box {margin-right:10px;}
+			
+			.aboutme {overflow:auto;
+				  	  width:80%; 
+				      float:none;
+				      margin:30px 50px 5px 60px;}
+			#business, #nature, #sports, #technic 
+										{display:inline-block;
+										width:40%;
+										height:140px;
+										margin-left: 30px;} 
+			footer {width:100%;}
+			.portfolio {width:76%;
+				   		margin:30px 50px 5px 60px;
+				   		}
+			.contact {width:76%;
+				      margin:30px 50px 5px 60px;}
+		form, input {width:100%;}
+		}
+
+@media screen and (max-width:640px) {
+		body {width:100%;}
+		header {width:100%; 
+				position:static;
+				height:100px;
+				}
+		.name-box {width:100%;
+				   margin: 0;
+				   padding: 0;
+				   float:none;}
+						
+		.main {width:100%;}
+		img {width:100%;}
+		.aside {width:80%;
+				float:none;
+				position:relative;
+				overflow:auto;
+				margin:5px 5px 80px 145px;}
+		.nav-box {width:100%;
+				 position:relative;
+				 float:none;
+				 margin:auto;
+				 }
+		.nav-smallbox {width:80px;
+					margin-left:75px;
+					}
+		.aboutme {overflow:auto;
+				  width:80%; 
+				  float:none;
+				  margin:30px 50px 5px 50px;}
+		footer {width:100%;}
+		#business, #nature, #sports, #technic {
+				 width:100%;height:100%;
+				 margin:0px;
+				 padding:10px 10px 10px 0px;}
+		.portfolio {width:75%; 
+				    margin:30px 50px 15px 45px;}
+		.contact {width: 76%; 
+				 margin-left:40px;
+				 margin-bottom:20px;}
+		form, input {width:100%;}
+}
