@@ -1,21 +1,21 @@
-body {background-color: #ffffff;
+body {background-color: #C0C0C0;
       font-family: 'Georgia, Times New Roman, Times, serif';
-      }
+      height:100%; margin:0;}
 
 h1 {font-family: 'Georgia, Times, Times New Roman, serif';}
 
-img {width:300px;
-	 height:300px;
-	 position:relative;
-	 float:left;
-	 margin:20px;}
+#picture {width:320px;
+	      height:320px;
+	      float:left;
+	      margin:5px;
+	      padding:5px;}
 
-header {width:1256px; 
-		height:80px;
+header {width:100%; 
+		height:100px;
 		background-color:#ffffff;
-		margin-top:0;
+		margin:auto;
 		overflow:hidden;
-		border:solid #cccccc;}
+		border:solid #dddddd;}
 		
 .name-box {padding-top:40px;
 		font-size:25px;
@@ -23,13 +23,13 @@ header {width:1256px;
 		width:150px; 
 	    height:60px;
 	    background-color:#4aaaa5;
-		margin-left:180px;
+		margin-left:150px;
 		float:left;
 		color:white;
 		}
 
-.nav-box {margin-top:20px;
-		  margin-right:80px;
+.nav-box {margin-top:40px;
+		  margin-right:180px;
 		  font-size:20px; 
 		  width:300px;
 		  height:40px;
@@ -42,33 +42,31 @@ header {width:1256px;
 
 
  .main {background-color: #C0C0C0;
- 		clear:both;
- 		width:1256px;
- 		height:620px;
- 	    border: solid #dddddd;
- 	    position:relative;
- 		}
+ 		width:960px;
+ 		height:650px;
+ 		position: relative;
+ 		margin: auto;}
 
- .aboutme   {width:40%;
- 			height:70%;
+ .aboutme   {width:468px;
+ 			 height:530px;
  			float:left;
- 			padding:40px;
- 			margin:50px 120px 50px 120px;
- 			border:solid #dddddd;
+ 			padding:30px;
+ 			margin-top: 30px;
  			font-size:20px;
  			background-color: #ffffff;
- 			overflow:hidden;
- 			line-height:1.2;}
+ 			line-height:1.2;
+ 		    overflow:auto;}
 
  .aside {width:215px;
  		height:145px;
- 		position: absolute;
+ 		float:left;
+ 		margin-left:100px;
+ 		margin-top: 30px;
+ 	    margin-bottom:30px;
  		background-color: #ffffff;
- 		top:50px;
- 		right:100px;
  	    font-size:25px;
  	    padding:40px;
- 		border:solid #dddddd;}
+ 	    }
  
  #icon {width:60px;
  	   height:70px;
@@ -82,66 +80,53 @@ header {width:1256px;
 	color: white;
 	clear: both;
 	overflow:auto;
-	width: 1256px;
+	width: 100%;
 	height: 50px;
-	position: relative;
 	border-top:solid #4aaaa5;}
 
 #business, #nature, #sports, #technic {display:inline-block;
-										width:200px;
-										height:150px;
-										margin: 15px;} 
+										width:420px;
+										height:300px;
+										margin: 15px;
+									    } 
 
-.portfolio  {width:40%;
- 			height:70%;
+.portfolio  {width:468px;
  			float:left;
- 			padding:30px;
- 			margin-top:50px;
- 			margin-left:100px;
- 			border:solid #dddddd;
+ 			padding-left:10px;
+ 			margin-top:30px;
+ 			margin-bottom:30px;
  			font-size:30px;
  			background-color: #ffffff;
  			}
-.contact  {width:40%;
- 			height:70%;
- 			float:left;
- 			padding:30px;
- 			margin-top:50px;
- 			margin-left:150px;
- 			border:solid #dddddd;
- 			font-size:20px;
- 			background-color: #ffffff;
+
+.contact  {width:468px;
+	       height:530px;
+	       padding: 35px;
+ 		   float:left;
+ 		   margin-top:30px;
+ 		   font-size:20px;
+ 		   background-color: #ffffff;
  			}
 
 /*media query*/
 @media screen and (max-width: 980px) {
 		body {width:100%;}
 		header {width:100%;}
-		.name-box {margin-left:90px;}
-		.main {width:100%;
-		       padding-bottom: 100px}
-		img {width:100%; 
-			 height:210px;}
-		.aside {width:30%;
-				padding:15px;
-				margin-right:-50px;}
-		.nav-box {margin-right:30px;}
-		.aboutme {height:570px;
-				  padding-top:10px;
-				  margin-left:80px;
-				  width:35%;
+		#picture {width:100%;}
+		.main {width:100%; 
+		       margin-left:50px;}
+		.name-box {margin-left:50px;}
+		.aside {width:30%;}
+		.nav-box {margin-right:0;}
+		.aboutme {width:35%;
 				  }
-		footer {width:100%;}
+		footer {width:100%;
+				position:relative;}
 		#business, #nature, #sports, #technic {
-				 width:100%; height:120px;
-				 margin:0px;
-				 padding:10px 5px 10px 0px;}
-		.portfolio {width:35%; height:600px;
-				    margin-left: 60px;
-				    padding-top:5px;}
-		.contact {width:35%;
-				 height:500px;
-				 margin-left:80px;}
+				 width:90%; height: 200px;}
+		.portfolio {width:40%;
+				    }
+		.contact {width:35%;}
 		form, input {width:100%;}
 
 		}
@@ -149,36 +134,35 @@ header {width:1256px;
 @media screen and (max-width:768px) {
 			body {width:100%;}
 			header {width:100%;}
-			img {width:250px;
-	 			height:250px;
-	 			position:relative;
-	 			float:left;
-	 			margin:20px;}
+			#picture {width:300px;
+	 				  height:300px;
+	 				  float:left;
+	 				  margin:10px;}
 			.name-box {margin-left:60px;}
 			.main {width:100%;
-				   padding-bottom:130px;}
-			.aside {width:80%;
-					float:none;
-					position:relative;
-				    overflow:auto;
-					margin-left:150px;}
+				   padding-bottom:200px;}
+			.aside {width: 77%; height:100px;
+				    margin-left:0;
+				    }
 			.nav-box {margin-right:10px;}
 			
-			.aboutme {width:72%; 
-				  	  height:400px;
-				      float:none;
-				      margin:30px 30px 0px 50px;}
+			.aboutme {width:80%; 
+				  	  height:470px;
+				      margin-bottom:40px;}
 			#business, #nature, #sports, #technic 
 										{display:inline-block;
 										width:40%;
-										height:140px;
-										margin-left: 30px;} 
+										height:200px;
+										margin-left: 30px;
+										} 
 			footer {width:100%;}
-			.portfolio {width:76%; height:400px;
-				   		margin:30px 50px 5px 50px;
+			.portfolio {width:86%; height:530px;
+				   		margin-left: 0;
+				   		padding:10px;
 				   		}
-			.contact {width:76%; height:400px;
-				      margin:30px 50px 0px 50px;}
+			.contact {width:78%; height:400px;
+				      margin-top:30px;
+				      padding-bottom:150px;}
 		form, input {width:100%;}
 		}
 
@@ -189,37 +173,33 @@ header {width:1256px;
 				height:100px;
 				}
 		.name-box {width:100%;
-				   margin: 0;
+				   margin: 0 auto;
 				   padding: 0;
 				   float:none;}
-						
-		.main {width:100%; height:80%;}
-		img {width:100%;height:300px;}
-		.aside {width:80%;
-				float:none;
-				position:relative;
-				overflow:auto;
-			    margin-bottom: -50px}
+		#picture {margin:0;
+				  width:100%;}				
+		.main {width:100%;
+			   height:760px;
+			   }
+		.aside {width:72%;
+		        }
 		.nav-box {width:100%;
-				 position:relative;
 				 float:none;
 				 margin:auto;
 				 }
 		.nav-smallbox {width:80px;
 					margin-left:75px;
 					}
-		.aboutme {width:70%; height:580px;
-				  float:none;
-				  margin:30px 50px 5px 50px;}
+		.aboutme {width:75%; height:580px;
+				  }
 		footer {width:100%;}
 		#business, #nature, #sports, #technic {
-				 width:100%; height:150px;
-				 margin:0px;
-				 padding:10px 10px 10px 0px;}
-		.portfolio {width:75%; height:750px;
-				    margin:30px 50px 60px 45px;}
-		.contact {width: 76%; height:400px;
-				 margin-left:50px;
+				 width:80%; height:200px;
+				 padding-left:15px;}
+		.portfolio {width:82%; height:650px;
+				    margin-left:0;
+				    overflow:auto;}
+		.contact {width: 75%; height:500px;
 				 }
 		form, input {width:100%;}
 }
